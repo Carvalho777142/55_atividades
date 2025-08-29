@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="paragrafo">click aqui para ver a hora atual</p>
+    <button onclick="botao()">Mostrar Hora</button>
+    <script>
+        function botao() {
+            var agora = new Date();
+            var hora = agora.getHours();
+            var minutos = agora.getMinutes();
+            var dia = agora.getDate();
+            var mes = agora.getMonth() ; 
+            var ano = agora.getFullYear();
+            alert("Hora atual: " + hora + ":" + minutos + "\n" + "data atual "  + dia + "/" + mes + "/" + ano);
+        }
+    </script>
+</body>
+</html>

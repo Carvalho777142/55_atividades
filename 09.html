@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li id="igor1">igor lindao</li>
+        <li>melhor lanche do word</li>
+        <li>oppa melhor que mac</li>
+    </ul>
+    <button onclick="alterarTexto()">Alterar Texto do Primeiro Item</button>
+    <script>
+        function alterarTexto() {
+           var troca = document.getElementById("igor1").innerText = "Igor bonitão";
+            alert(troca);
+        }
+    </script>
+</body>
+</html>

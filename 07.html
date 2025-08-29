@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima, voluptate in ullam voluptatibus error beatae provident ratione! Quisquam deserunt voluptate assumenda accusantium facilis temporibus dolorum fugit, sapiente cupiditate possimus!.</p>
+    <button onclick="mostrarTexto()">número de caracteres</button>
+    <script>
+        function mostrarTexto() {
+            var texto = document.getElementById("paragrafo").innerText.length;
+            alert("O texto possui " + texto + " caracteres.");
+        }
+    </script>
+</body>
+</html>

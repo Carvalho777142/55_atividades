@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1">Primeiro paragrafo.</p>
+    <p id="p2">Segundo paragrafo.</p>
+    <p id="p3">Terceiro paragrafo.</p>
+    <button onclick="botao()">Exibir Conteúdo</button>
+    <script>
+        function botao() {
+            var texto =document.getElementById("p1").innerText;
+            var texto2 = document.getElementById("p2").innerText;
+            var texto3 = document.getElementById("p3").innerText;
+            alert(texto + "\n" + texto2 + "\n" + texto3);
+        }
+    </script>
+</body>
+</html>
